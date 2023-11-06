@@ -19,5 +19,7 @@ COPY . .
 # 暴露8000端口
 EXPOSE 8000
 
-# 执行CMD
-CMD ["sh", "start_qwen_server.sh"]
+# 执行命令
+RUN chmod +x /start_qwen_server.sh
+ENTRYPOINT ["/start_qwen_server.sh"]
+#CMD ["sh", "start_qwen_server.sh"]
