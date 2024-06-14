@@ -16,3 +16,6 @@
 ## 好的资料
 1. prompt优化，[我是如何赢得GPT-4提示工程大赛冠军的](https://mp.weixin.qq.com/s/P89liAcOeIfh7H08G3HCig)
 
+
+## agent相关
+1. modelscope的做智能体：https://modelscope.cn/headlines/article/496
