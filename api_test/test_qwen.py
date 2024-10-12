@@ -24,7 +24,8 @@ payload = {
     "model": "Qwen/Qwen-14B-Chat"
 }
 
-response = requests.post("http://up-llm-qwen-server.p-up-inference.nurss.nioint.com/v1/completions", headers=headers, json=payload, stream=True)
+# 输入模型服务部署的地址
+response = requests.post("xxx/v1/completions", headers=headers, json=payload, stream=True)
 
 print(json.loads(response.content.decode()))
 
